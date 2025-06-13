@@ -1,0 +1,39 @@
+model: 'SSUFSR'
+## parameters for plain
+scale: 2
+rgb_range: 1.0
+colors: 3
+n_feats: 64
+num_heads: 4
+n_blocks: 9
+pretrain: 
+
+## parameters for model training
+patch_size: 128   ##  size of hr = scale * 64
+batch_size: 40
+data_repeat: 40
+data_augment: 1  
+
+epochs: 290  ## 232
+lr: 0.001  
+warmup_epochs: 0  
+eta_min: 0.000001
+decays: [250, 400, 425, 450, 475]
+gamma: 0.5
+log_every: 1000
+test_every: 1
+log_path: "./experiments-X2"
+log_name:
+lambda_l1: 1.0
+lambda_fft: 0.01  ### 0.005 or 0.05
+
+## hardware specification    24.96  28.50
+gpu_ids: [1]
+threads: 8
+save_image: True
+
+## data specification
+data_path: '../data_SR/'
+training_dataset: 'df2k'  ###  div2k or df2k
+eval_sets: ['Set5', 'Set14', 'B100', 'Urban100', 'Manga109']
+
