@@ -7,7 +7,7 @@
 
 This repository provides the official implementation for the paper "Structural Similarity-Inspired Unfolding for Lightweight Image Super-Resolution," IEEE Transactions on Image Processing, 2025. [Paper]()
 
-![Teaser](./readme-img/SSIU.jpg)
+![Teaser](./readme-img/SSIU.png)
 
 ## About SSIU
 
