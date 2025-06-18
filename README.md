@@ -22,6 +22,14 @@ Our model outperforms current state-of-the-art models, boasting lower parameter 
 
 **TL;DR:** We propose a novel Structural Similarity-Inspired Unfolding (SSIU) network for lightweight image SR, which sparsely activates long-range pixels, leading to improved SR results with a lightweight architecture.
 
+
+## Experimental Results
+
+Performance comparison of various lightweight SR models on five widely used benchmark datasets. All PSNR/SSIM values are computed on the Y-channel of the YCbCr color space. The FLOPs are measured corresponding to an SR image of size 1280 × 720 pixels. The top three performances are highlighted in red, orange, and yellow backgrounds, respectively.
+
+<div align="center"> <img src=./readme-img/performance.jpg width = "100%" height = "100%" /> </div>
+
+
 ## Environment setup
 To start, we prefer creating the environment using conda:
 ```sh
