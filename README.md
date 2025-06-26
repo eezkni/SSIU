@@ -150,8 +150,7 @@ If you find our work useful, please cite it as
   title={Structural Similarity-Inspired Unfolding for Lightweight Image Super-Resolution},
 	author={Ni, Zhangkai, and Zhang, Yang, and Yang, Wenhan, and Wang, Hanli, and Wang, Shiqi and Kwong, Sam},
 	journal={IEEE Transactions on Image Processing},
-	volume={},
-	pages={},
+	volume={34},
 	year={2025},
 	publisher={IEEE}
 }
