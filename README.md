@@ -5,7 +5,7 @@
 
 <sup>1</sup>Tongji University, <sup>2</sup>Peng Cheng Laboratory, <sup>3</sup>City University of Hong Kong, <sup>4</sup>Lingnan Univerity
 
-This repository provides the official implementation for the paper "Structural Similarity-Inspired Unfolding for Lightweight Image Super-Resolution," IEEE Transactions on Image Processing, 2025. [Paper-official](https://ieeexplore.ieee.org/document/11039153) [Paper-arXiv](https://arxiv.org/abs/2506.11823)
+This repository provides the official implementation for the paper "Structural Similarity-Inspired Unfolding for Lightweight Image Super-Resolution," IEEE Transactions on Image Processing, vol. 34, pp. 3861-3872, Jun. 2025. [Paper-official](https://ieeexplore.ieee.org/document/11039153) [Paper-arXiv](https://arxiv.org/abs/2506.11823)
 
 ![Teaser](./readme-img/SSIU.png)
 
