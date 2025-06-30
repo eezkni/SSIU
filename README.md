@@ -164,5 +164,5 @@ This code is inspired by [ELAN](https://github.com/xindongzhang/ELAN). We thank 
 Thanks for your attention! If you have any suggestion or question, feel free to leave a message here or contact Dr. Zhangkai Ni (eezkni@gmail.com).
 
 
-<!-- ## License
-[MIT License](https://opensource.org/licenses/MIT) -->
+## License
+[MIT License](https://opensource.org/licenses/MIT)
